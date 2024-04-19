@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logg"
+    tools:context=".Registrese">
+
+    <Button
+        android:id="@+id/Bregistrar"
+        android:layout_width="342dp"
+        android:layout_height="61dp"
+        android:text="Registrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <EditText
+        android:id="@+id/Tregid"
+        android:layout_width="356dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:hint="Ingrese id"
+        android:inputType="number"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/Tregnombre"
+        android:layout_width="356dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:hint="Ingrese nombres"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/Tregususario"
+        android:layout_width="356dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:hint="Ingrese ususario"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/Tregcontra"
+        android:layout_width="356dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:hint="Ingrese Contraseña"
+        android:inputType="text"
+        android:textColorHint="#090000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/Tregtelefono"
+        android:layout_width="356dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:hint="Ingrese telefono"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="182dp"
+        android:layout_height="130dp"
+        android:background="@drawable/registro"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hellouser"
+    tools:context=".Rolusuario">
+
+    <TextView
+        android:id="@+id/Leid"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:text="10010"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Lenombre"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:text="Mario"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Letotalcompra"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:text="7848222"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/Letelefono"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:text="3137635915"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/Ledireccion"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:text="calle 111 # 50A97"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Bsalirusuario"
+        android:layout_width="328dp"
+        android:layout_height="74dp"
+        android:text="Salir"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <LinearLayout
+        android:layout_width="192dp"
+        android:layout_height="141dp"
+        android:background="@drawable/usuario"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079"></LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
